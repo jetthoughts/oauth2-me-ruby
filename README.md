@@ -7,7 +7,7 @@ OAuth2Me is a ruby client for the [oauth2.me](http://oauth2.me/) service.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'oauth2-me', github: 'tmwh/oauth2-me-ruby'
+gem 'oauth2-me', github: 'jetthoughts/oauth2-me-ruby'
 ```
 
 And then execute:
