@@ -1,5 +1,6 @@
 require 'base64'
 require 'oauth2-me/omniauth_strategy_updater'
+require 'oauth2-me/railtie' if defined?(Rails)
 
 module OAuth2Me
   class BannedEnvironmentError < StandardError; end
