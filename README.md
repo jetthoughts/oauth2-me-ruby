@@ -18,14 +18,6 @@ $ bundle
 
 ## Usage
 
-### Devise
- 
-If you are using devise in your application, you should add this to your `initializers/devise.rb`:
-
-```ruby
-OAuth2Me.setup_devise! unless Rails.env.production?
-```
-
 ### Omniauth
 
 The work is still in progress.
